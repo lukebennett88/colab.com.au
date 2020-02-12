@@ -5,7 +5,12 @@ import PropTypes from 'prop-types';
 const FullImage = ({ img }) => {
   return (
     <article className="mt-20">
-      <Image fluid={img.childImageSharp.fluid} className="w-full" />
+      <Image
+        fluid={img.childImageSharp.fluid}
+        imgStyle={{ objectPosition: `right` }}
+        style={{ minHeight: `30rem` }}
+        className="w-full"
+      />
     </article>
   );
 };
