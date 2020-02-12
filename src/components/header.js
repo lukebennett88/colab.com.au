@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { IoIosClose } from 'react-icons/io';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
@@ -24,7 +23,7 @@ const Header = ({ home, isOpen, setOpen }) => {
         <span className="sr-only">Close Menu</span>
       </button>
       <header
-        className={`fixed h-screen z-50 py-20 font-medium text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
+        className={`fixed h-screen z-50 py-20 text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
           isOpen ? ' translate-x-0' : ' -translate-x-full'
         }`}
       >
@@ -40,10 +39,10 @@ const Header = ({ home, isOpen, setOpen }) => {
           <IoIosClose aria-label="Close menu" />
         </button>
         <nav>
-          <img src={logo} alt="CoLab logo" className="w-full px-8" />
+          <img src={logo} alt="CoLab logo." className="w-full px-8" />
           <ul className="w-full mt-12 leading-tight uppercase">
             {navItems.map(navItem => (
-              <li key={navItem.id} className="flex text-2xl">
+              <li key={navItem.id} className="flex text-2xl font-display">
                 {home ? (
                   <AnchorLink
                     href={navItem.href}
@@ -67,29 +66,6 @@ const Header = ({ home, isOpen, setOpen }) => {
               </li>
             ))}
           </ul>
-          {/* <div className="w-full px-12 leading-tight">
-            <hr className="w-8 mt-8 border-t-4 border-white" />
-            <p className="mt-6">{site.siteMetadata.address}</p>
-            <p className="mt-1">
-              <small>(Just 3 hours from Sydney)</small>
-            </p>
-            <p className="mt-4">
-              <a
-                href={`tel:${site.siteMetadata.phone.replace(/\s+/g, '')}`}
-                className="hover:underline"
-              >
-                {site.siteMetadata.phone}
-              </a>
-            </p>
-            <p className="mt-4">
-              <a
-                href={`mailto:${site.siteMetadata.email}`}
-                className="hover:underline"
-              >
-                {site.siteMetadata.email}
-              </a>
-            </p>
-          </div> */}
         </nav>
       </header>
     </>
