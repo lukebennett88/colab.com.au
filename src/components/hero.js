@@ -15,7 +15,7 @@ const Hero = () => {
         <img
           src={bookHere}
           alt="Book here button"
-          className="w-20 mb-56 mr-5"
+          className="w-20 mb-56 mr-5 md:mr-20 md:pr-3"
         />
       </a>
       <div className="absolute inset-0">
