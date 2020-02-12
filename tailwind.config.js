@@ -8,7 +8,7 @@ module.exports = {
         fuschia: '#CA0088',
         gray: {
           ...tw.colors.gray,
-          '200': '#f3f3f4',
+          '600': '#707070',
         },
       },
       fontFamily: {
