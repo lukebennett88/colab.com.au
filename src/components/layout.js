@@ -33,7 +33,7 @@ const Layout = ({ home, children }) => {
                   </button>
                 </div>
               </div>
-              <div className="mt-6 lg:mt-0">{children}</div>
+              {children}
             </main>
           </div>
           <Footer />

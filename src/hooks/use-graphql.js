@@ -20,6 +20,13 @@ const useGraphql = () => {
           }
         }
       }
+      heroImage: file(relativePath: { eq: "hero.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       productsImage: file(
         relativePath: { eq: "need-braille-signage-image.png" }
       ) {

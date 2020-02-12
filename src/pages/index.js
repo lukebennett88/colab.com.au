@@ -2,19 +2,15 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Home from '../components/home';
-import Products from '../components/products';
-import Contact from '../components/contact';
-import MeetOurNeighbours from '../components/meet-our-neighbours';
+import Hero from '../components/hero';
+import Booking from '../components/booking';
 
 const IndexPage = () => {
   return (
     <Layout home>
       <SEO title="Custom Braille &amp; Tactile Signage" />
-      <Home />
-      <Products />
-      <Contact />
-      <MeetOurNeighbours />
+      <Hero />
+      <Booking />
     </Layout>
   );
 };
