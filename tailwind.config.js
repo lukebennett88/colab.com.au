@@ -12,7 +12,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Gibson', ...tw.fontFamily.sans],
+        display: ['True North', ...tw.fontFamily.sans],
+        sans: ['Poppins', ...tw.fontFamily.sans],
       },
       maxWidth: {
         '1920': '1920px',

@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 // Self host fonts using Typefaces.js https://github.com/KyleAMathews/typefaces
-import 'typeface-inter';
+import 'typeface-poppins';
 import React from 'react';
 import PropTypes from 'prop-types';
 
