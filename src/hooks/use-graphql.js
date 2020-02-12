@@ -12,14 +12,6 @@ const useGraphql = () => {
           email
         }
       }
-
-      homeImage: file(relativePath: { eq: "home-image.png" }) {
-        childImageSharp {
-          fixed(width: 320) {
-            ...GatsbyImageSharpFixed_withWebp_noBase64
-          }
-        }
-      }
       heroImage: file(relativePath: { eq: "hero.png" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
@@ -27,19 +19,10 @@ const useGraphql = () => {
           }
         }
       }
-      productsImage: file(
-        relativePath: { eq: "need-braille-signage-image.png" }
-      ) {
+      bookingImage: file(relativePath: { eq: "booking-image.png" }) {
         childImageSharp {
-          fixed(width: 160) {
-            ...GatsbyImageSharpFixed_withWebp_noBase64
-          }
-        }
-      }
-      braille: file(relativePath: { eq: "braille.png" }) {
-        childImageSharp {
-          fixed(width: 224) {
-            ...GatsbyImageSharpFixed_withWebp_noBase64
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
