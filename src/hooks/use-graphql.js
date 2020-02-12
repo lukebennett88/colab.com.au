@@ -12,14 +12,28 @@ const useGraphql = () => {
           email
         }
       }
-      heroImage: file(relativePath: { eq: "hero.png" }) {
+      heroImage: file(relativePath: { eq: "hero.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
-      bookingImage: file(relativePath: { eq: "booking-image.png" }) {
+      bookingImage: file(relativePath: { eq: "booking.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      pricingImage: file(relativePath: { eq: "pricing.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      whatIsColabImage: file(relativePath: { eq: "what-is-colab.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid_withWebp
