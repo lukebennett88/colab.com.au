@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 
 import useGraphql from '../hooks/use-graphql';
 import SiteContext from '../context/site-context';
+import logo from '../images/logo.svg';
 
 const Header = ({ home, isOpen, setOpen }) => {
   const { site } = useGraphql();
@@ -25,7 +26,7 @@ const Header = ({ home, isOpen, setOpen }) => {
         <span className="sr-only">Close Menu</span>
       </button>
       <header
-        className={`fixed h-screen z-50 py-24 font-medium text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-gradient lg:translate-x-0${
+        className={`fixed h-screen z-50 py-20 font-medium text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
           isOpen ? ' translate-x-0' : ' -translate-x-full'
         }`}
       >
@@ -41,16 +42,17 @@ const Header = ({ home, isOpen, setOpen }) => {
           <IoIosClose aria-label="Close menu" />
         </button>
         <nav>
-          <ul className="w-full leading-tight uppercase">
+          <img src={logo} alt="CoLab logo" className="w-full px-8" />
+          <ul className="w-full mt-12 leading-tight uppercase">
             {navItems.map(navItem => (
-              <li key={navItem.id} className="flex">
+              <li key={navItem.id} className="flex text-2xl">
                 {home ? (
                   <AnchorLink
                     href={navItem.href}
                     onClick={() => setOpen(false)}
                     className={`${
                       navItem.isActive ? 'active ' : ''
-                    }relative mt-4 px-12 hover:underline w-full`}
+                    }relative mt-4 px-8 hover:underline w-full`}
                   >
                     {navItem.label}
                   </AnchorLink>
@@ -67,7 +69,7 @@ const Header = ({ home, isOpen, setOpen }) => {
               </li>
             ))}
           </ul>
-          <div className="w-full px-12 leading-tight">
+          {/* <div className="w-full px-12 leading-tight">
             <hr className="w-8 mt-8 border-t-4 border-white" />
             <p className="mt-6">{site.siteMetadata.address}</p>
             <p className="mt-1">
@@ -89,7 +91,7 @@ const Header = ({ home, isOpen, setOpen }) => {
                 {site.siteMetadata.email}
               </a>
             </p>
-          </div>
+          </div> */}
         </nav>
       </header>
     </>

@@ -15,7 +15,7 @@ const Products = () => {
       threshold={0.75}
       onChange={isInView => context.setNavIndicator(1, isInView)}
       id="products"
-      className="relative px-6 py-12 text-white bg-gradient"
+      className="relative px-6 py-12 text-white bg-fuschia"
     >
       <div className="absolute inset-x-0 top-0 flex justify-center transform -translate-y-1/2">
         <img src={pointer} alt="" className="h-12" />

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'transparent-black': 'hsla(0, 0%, 0%, 0.5)',
+        fuschia: '#CA0088',
         gray: {
           ...tw.colors.gray,
           '200': '#f3f3f4',

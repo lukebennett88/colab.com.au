@@ -16,7 +16,7 @@ const Success = () => {
             site.
           </h2>
           <p className="mt-12">
-            <Link to="/" className="w-auto mt-0 bg-gradient button">
+            <Link to="/" className="w-auto mt-0 bg-fuschia button">
               Return to home page
             </Link>
           </p>

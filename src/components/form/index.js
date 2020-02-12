@@ -77,7 +77,7 @@ const Form = () => {
         handleChange={handleChange}
       />
       <p className="flex">
-        <button type="submit" className="mt-3 ml-auto bg-gradient button">
+        <button type="submit" className="mt-3 ml-auto bg-fuschia button">
           Submit
         </button>
       </p>

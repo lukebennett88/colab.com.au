@@ -7,20 +7,26 @@
   },
   {
     "id": 2,
-    "label": "Products",
-    "href": "#products",
+    "label": "Booking",
+    "href": "#booking",
     "isActive": false
   },
   {
     "id": 3,
-    "label": "Contact",
-    "href": "#contact",
+    "label": "Pricing",
+    "href": "#pricing",
     "isActive": false
   },
   {
     "id": 4,
-    "label": "Meet Our Neighbours",
-    "href": "#meet-our-neighbours",
+    "label": "About",
+    "href": "#about",
+    "isActive": false
+  },
+  {
+    "id": 5,
+    "label": "Contact",
+    "href": "#contact",
     "isActive": false
   }
 ]
