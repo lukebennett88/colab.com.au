@@ -1,7 +1,7 @@
 import React from 'react';
 
 import useGraphql from '../hooks/use-graphql';
-import logo from '../images/braille-at-barrier-logo.svg';
+import logo from '../images/logo.svg';
 
 const Footer = () => {
   const { site } = useGraphql();
