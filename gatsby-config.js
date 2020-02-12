@@ -1,3 +1,6 @@
+// Import Tailwind config file so we can reference values
+const tw = require('./tailwind.config');
+
 module.exports = {
   siteMetadata: {
     title: `Braille@Barrier`,
@@ -30,7 +33,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#27aae1`,
+        theme_color: tw.theme.extend.colors.fuschia,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
