@@ -5,12 +5,10 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
-import useGraphql from '../hooks/use-graphql';
 import SiteContext from '../context/site-context';
 import logo from '../images/logo.svg';
 
 const Header = ({ home, isOpen, setOpen }) => {
-  const { site } = useGraphql();
   const { navItems } = React.useContext(SiteContext);
   return (
     <>
