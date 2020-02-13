@@ -24,6 +24,9 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    borderWidth: ['responsive', 'first'],
+    margin: ['responsive', 'first'],
+  },
   plugins: [],
 };
