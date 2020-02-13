@@ -11,13 +11,6 @@ const Hero = () => {
 
   return (
     <article className="relative flex items-end justify-end min-h-screen">
-      <a href="#!" className="fixed right-0 z-20 inline-block">
-        <img
-          src={bookHere}
-          alt="Book here button"
-          className="w-20 mb-56 mr-5 md:mr-20 md:pr-3"
-        />
-      </a>
       <div className="absolute inset-0">
         <Image
           fluid={data.heroImage.childImageSharp.fluid}
@@ -34,6 +27,11 @@ const Hero = () => {
           <br /> Finest Community Hub
           <br /> and Work Space
         </h1>
+      </div>
+      <div className="fixed bottom-0 right-0 z-20 mb-56 mr-5 md:mr-20 md:pr-3">
+        <a href="#!">
+          <img src={bookHere} alt="Book here button" className="w-20" />
+        </a>
       </div>
     </article>
   );
