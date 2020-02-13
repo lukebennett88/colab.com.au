@@ -8,7 +8,7 @@ const FullImage = ({ img }) => {
       <Image
         fluid={img.childImageSharp.fluid}
         imgStyle={{ objectPosition: `right` }}
-        style={{ minHeight: `30rem` }}
+        style={{ minHeight: `20rem` }}
         className="w-full"
       />
     </article>

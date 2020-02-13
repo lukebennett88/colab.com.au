@@ -40,6 +40,13 @@ const useGraphql = () => {
           }
         }
       }
+      contactUsImage: file(relativePath: { eq: "contact.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
     }
   `);
   return data;
