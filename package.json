@@ -1,7 +1,7 @@
 {
-  "name": "braille-barrier",
+  "name": "colab",
   "private": true,
-  "description": "Website for Braille@Barrier.com.au",
+  "description": "Website for Colabpmq.com.au",
   "version": "0.1.0",
   "author": "Luke Bennett <hello@lukebennett.com.au>",
   "dependencies": {
