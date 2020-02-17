@@ -3,14 +3,20 @@ import Image from 'gatsby-image';
 import useGraphql from '../hooks/use-graphql';
 
 import Wrapper from './wrapper';
+import cornerChevron from '../images/corner-style.svg';
 
 const WhatIsColab = () => {
   const data = useGraphql();
 
   return (
     <Wrapper>
-      <div className="relative flex flex-wrap mx-6 mt-12 border-2 border-gray-600 md:pr-12 md:w-1/2">
-        <div className="inset-0 w-full px-6 py-12 md:py-24 md:absolute md:pr-24">
+      <div className="relative flex flex-wrap mx-6 mt-12">
+        <div className="relative w-full px-6 pt-12 border-2 border-gray-600 pb-72 md:py-24 md:pr-12 md:w-1/2">
+          <img
+            src={cornerChevron}
+            alt=""
+            className="absolute top-0 left-0 h-16 -mt-3 -ml-3"
+          />
           <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
             What Is <br className="hidden md:inline" />
             Colab?
@@ -21,11 +27,8 @@ const WhatIsColab = () => {
             environment or hire out CoLab for your business needs.
           </p>
         </div>
-        <div className="relative inset-y-0 right-0 w-full px-6 py-8 -mt-24 -mb-32 transform md:translate-x-full md:my-0 md:min-h-48rem md:min-w-125pc">
-          <Image
-            fluid={data.whatIsColabInnerImage.childImageSharp.fluid}
-            className="w-full h-64 md:-ml-32 md:h-full"
-          />
+        <div className="w-full px-6 py-8 -mb-24 -mt-80 md:h-full md:-ml-12 md:my-0 md:w-1/2">
+          <Image fluid={data.whatIsColabInnerImage.childImageSharp.fluid} />
         </div>
       </div>
     </Wrapper>
