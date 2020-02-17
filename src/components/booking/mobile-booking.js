@@ -4,7 +4,7 @@ import Wrapper from '../wrapper';
 
 const MobileBooking = () => {
   return (
-    <Wrapper>
+    <Wrapper isMobileOnly>
       <div className="relative p-6 mx-6 mt-20 border-2 border-gray-600">
         <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
           Book in 3 <br /> Easy Steps

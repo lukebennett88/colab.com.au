@@ -2,9 +2,9 @@ import Image from 'gatsby-image';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const FullImage = ({ img }) => {
+const FullImage = ({ img, className }) => {
   return (
-    <article className="mt-20">
+    <article className={className || 'mt-20'}>
       <Image
         fluid={img.childImageSharp.fluid}
         imgStyle={{ objectPosition: `right` }}
@@ -17,6 +17,7 @@ const FullImage = ({ img }) => {
 
 FullImage.propTypes = {
   img: PropTypes.object,
+  className: PropTypes.string,
 };
 
 export default FullImage;

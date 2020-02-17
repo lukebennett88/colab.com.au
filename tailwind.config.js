@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'transparent-black': 'hsla(0, 0%, 0%, 0.5)',
         fuschia: '#CA0088',
+        purpbrown: '#40383D',
         gray: {
           ...tw.colors.gray,
           '600': '#707070',
@@ -14,6 +15,12 @@ module.exports = {
       fontFamily: {
         display: ['True North', ...tw.fontFamily.sans],
         sans: ['Poppins', ...tw.fontFamily.sans],
+      },
+      minHeight: {
+        '48rem': '48rem',
+      },
+      minWidth: {
+        '125pc': '125%',
       },
       maxWidth: {
         '1920': '1920px',

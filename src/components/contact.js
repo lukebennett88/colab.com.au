@@ -22,50 +22,60 @@ const Contact = () => {
       </div>
 
       <div className="relative p-6 mx-4 mt-8 border-2 border-gray-600">
-        <form className="pt-6">
-          <div className="mb-4">
+        <form name="contact-form" data-netlify="true" className="pt-6">
+          <label htmlFor="full-name" className="flex flex-col mt-4 first:mt-0">
+            <div className="font-bold uppercase font-display text-fuschia">
+              Full name
+            </div>
             <input
-              className="w-full px-3 py-2 leading-tight border border-gray-600 appearance-none placeholder-fuschia text-fuschia focus:outline-none focus:shadow-none"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="full-name"
               type="text"
-              placeholder="FULL NAME"
             />
-          </div>
-          <div className="mb-4">
+          </label>
+          <label htmlFor="email" className="flex flex-col mt-4 first:mt-0">
+            <div className="font-bold uppercase font-display text-fuschia">
+              Email
+            </div>
             <input
-              className="w-full px-3 py-2 leading-tight border border-gray-600 appearance-none placeholder-fuschia text-fuschia focus:outline-none focus:shadow-none"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="email"
               type="email"
-              placeholder="EMAIL"
             />
-          </div>
-          <div className="mb-4">
+          </label>
+          <label htmlFor="phone" className="flex flex-col mt-4 first:mt-0">
+            <div className="font-bold uppercase font-display text-fuschia">
+              Phone
+            </div>
             <input
-              className="w-full px-3 py-2 leading-tight border border-gray-600 appearance-none placeholder-fuschia text-fuschia focus:outline-none focus:shadow-none"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="phone"
               type="text"
-              placeholder="PHONE"
             />
-          </div>
-          <div className="mb-4">
+          </label>
+          <label htmlFor="subject" className="flex flex-col mt-4 first:mt-0">
+            <div className="font-bold uppercase font-display text-fuschia">
+              Subject
+            </div>
             <input
-              className="w-full px-3 py-2 leading-tight border border-gray-600 appearance-none placeholder-fuschia text-fuschia focus:outline-none focus:shadow-none"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="subject"
               type="text"
-              placeholder="SUBJECT"
             />
-          </div>
-          <div className="mb-4">
+          </label>
+          <label htmlFor="message" className="flex flex-col mt-4 first:mt-0">
+            <div className="font-bold uppercase font-display text-fuschia">
+              Message
+            </div>
             <textarea
               rows="6"
-              className="w-full px-3 py-2 leading-tight border border-gray-600 appearance-none placeholder-fuschia text-fuschia focus:outline-none focus:shadow-none"
+              className="w-full h-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="message"
-              placeholder="MESSAGE"
             />
-          </div>
-          <div className="flex items-center justify-end">
+          </label>
+          <div className="flex items-center justify-end mt-4">
             <button
-              className="px-4 py-2 text-white font-display bg-fuschia focus:outline-none focus:shadow-none"
+              className="px-4 py-2 text-white font-display bg-fuschia focus:outline-none focus:shadow-none focus:border-fuschia"
               type="button"
             >
               Submit

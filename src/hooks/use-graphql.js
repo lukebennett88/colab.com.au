@@ -6,10 +6,14 @@ const useGraphql = () => {
       site {
         siteMetadata {
           title
-          address
+          addressFirstLine
+          addressSecondLine
           ABN
           phone
           email
+          hours
+          facebook
+          googleMapsEmbedUrl
         }
       }
       heroImage: file(relativePath: { eq: "hero.jpg" }) {
@@ -27,6 +31,15 @@ const useGraphql = () => {
         }
       }
       pricingImage: file(relativePath: { eq: "pricing.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
+      whatIsColabInnerImage: file(
+        relativePath: { eq: "what-is-colab-inner.jpg" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid_withWebp
