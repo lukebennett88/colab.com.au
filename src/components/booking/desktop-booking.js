@@ -20,21 +20,23 @@ const DesktopBooking = () => {
         </p>
       </div>
       <div className="relative float-right w-1/2 mt-4 -mt-56 bg-fuschia">
-        <ul className="p-6 text-white">
-          <li className="leading-none">
-            <strong className="font-display">STEP 1.</strong> Click on the{' '}
-            <br /> book button
-          </li>
-          <li className="mt-2 leading-none">
-            <strong className="font-display">STEP 2.</strong> Select the
-            <br />
-            membership you are
-            <br /> after
-          </li>
-          <li className="mt-2 leading-none">
-            <strong className="font-display">STEP 3.</strong> Make payment
-          </li>
-        </ul>
+        <div className="flex justify-center">
+          <ul className="p-6 text-white">
+            <li className="leading-none">
+              <strong className="font-display">STEP 1.</strong> Click on the{' '}
+              <br /> book button
+            </li>
+            <li className="mt-2 leading-none">
+              <strong className="font-display">STEP 2.</strong> Select the
+              <br />
+              membership you are
+              <br /> after
+            </li>
+            <li className="mt-2 leading-none">
+              <strong className="font-display">STEP 3.</strong> Make payment
+            </li>
+          </ul>
+        </div>
       </div>
     </Wrapper>
   );
