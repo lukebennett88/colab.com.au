@@ -24,52 +24,52 @@ const Contact = () => {
       <div className="relative p-6 mx-4 mt-8 border-2 border-gray-600">
         <form name="contact-form" data-netlify="true" className="pt-6">
           <label htmlFor="full-name" className="flex flex-col mt-4 first:mt-0">
-            <div className="uppercase font-display text-fuschia font-bold">
+            <div className="font-bold uppercase font-display text-fuschia">
               Full name
             </div>
             <input
-              className="w-full px-3 py-2 border border-gray-600 appearance-none text-gray-700 focus:outline-none focus:shadow-none focus:border-fuschia"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="full-name"
               type="text"
             />
           </label>
           <label htmlFor="email" className="flex flex-col mt-4 first:mt-0">
-            <div className="uppercase font-display text-fuschia font-bold">
+            <div className="font-bold uppercase font-display text-fuschia">
               Email
             </div>
             <input
-              className="w-full px-3 py-2 border border-gray-600 appearance-none text-gray-700 focus:outline-none focus:shadow-none focus:border-fuschia"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="email"
               type="email"
             />
           </label>
           <label htmlFor="phone" className="flex flex-col mt-4 first:mt-0">
-            <div className="uppercase font-display text-fuschia font-bold">
+            <div className="font-bold uppercase font-display text-fuschia">
               Phone
             </div>
             <input
-              className="w-full px-3 py-2 border border-gray-600 appearance-none text-gray-700 focus:outline-none focus:shadow-none focus:border-fuschia"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="phone"
               type="text"
             />
           </label>
           <label htmlFor="subject" className="flex flex-col mt-4 first:mt-0">
-            <div className="uppercase font-display text-fuschia font-bold">
+            <div className="font-bold uppercase font-display text-fuschia">
               Subject
             </div>
             <input
-              className="w-full px-3 py-2 border border-gray-600 appearance-none text-gray-700 focus:outline-none focus:shadow-none focus:border-fuschia"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="subject"
               type="text"
             />
           </label>
           <label htmlFor="message" className="flex flex-col mt-4 first:mt-0">
-            <div className="uppercase font-display text-fuschia font-bold">
+            <div className="font-bold uppercase font-display text-fuschia">
               Message
             </div>
             <textarea
               rows="6"
-              className="w-full h-full px-3 py-2 border border-gray-600 appearance-none text-gray-700 focus:outline-none focus:shadow-none focus:border-fuschia"
+              className="w-full h-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="message"
             />
           </label>
