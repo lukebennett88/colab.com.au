@@ -37,6 +37,15 @@ const useGraphql = () => {
           }
         }
       }
+      whatIsColabInnerImage: file(
+        relativePath: { eq: "what-is-colab-inner.jpg" }
+      ) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
+        }
+      }
       whatIsColabImage: file(relativePath: { eq: "what-is-colab.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {

@@ -23,7 +23,7 @@ const IndexPage = () => {
       <Pricing />
       <FullImage img={data.pricingImage} />
       <WhatIsColab />
-      <FullImage img={data.whatIsColabImage} />
+      <FullImage img={data.whatIsColabImage} className="mt-48" />
       <Contact />
       <FullImage img={data.contactUsImage} />
     </Layout>
