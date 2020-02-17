@@ -6,10 +6,14 @@ const useGraphql = () => {
       site {
         siteMetadata {
           title
-          address
+          addressFirstLine
+          addressSecondLine
           ABN
           phone
           email
+          hours
+          facebook
+          googleMapsEmbedUrl
         }
       }
       heroImage: file(relativePath: { eq: "hero.jpg" }) {
