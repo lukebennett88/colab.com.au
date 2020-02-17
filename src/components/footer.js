@@ -1,50 +1,64 @@
 import React from 'react';
 
 import useGraphql from '../hooks/use-graphql';
-import logo from '../images/logo.svg';
+import FacebookLogo from './facebook-logo';
+import Map from './map';
 
 const Footer = () => {
   const { site } = useGraphql();
   return (
-    <footer>
-      <div className="px-12 pt-24 pb-12 text-center md:text-left md:items-end md:justify-between md:flex">
-        <h2 className="w-full max-w-xs">
-          <img src={logo} alt={site.siteMetadata.title} className="w-full" />
-        </h2>
-        <div className="mt-6 md:text-right md:mt-0">
-          <p>
-            <span className="font-semibold text-black">
-              {site.siteMetadata.address}
-            </span>{' '}
-            <small className="inline-block">(Just 3 hours from Sydney)</small>
-          </p>
-          <p className="mt-2">
-            <span className="inline-block">ABN: {site.siteMetadata.ABN}</span> |{' '}
-            <a
-              href={`tel:${site.siteMetadata.phone}`}
-              className="inline-block hover:underline"
-            >
-              {site.siteMetadata.phone}
-            </a>{' '}
-            |{' '}
-            <a
-              href={`mailto:${site.siteMetadata.email}`}
-              className="inline-block hover:underline"
-            >
-              {site.siteMetadata.email}
-            </a>
-          </p>
+    <footer className="mt-64 md:mt-32 bg-purpbrown">
+      <div className="w-full max-w-4xl py-6 mx-auto">
+        <div className="relative flex flex-wrap-reverse -mt-64 md:-mt-16">
+          <div className="px-6 mt-auto md:w-1/2">
+            <div className="flex items-end justify-between flex-1">
+              <div className="mt-auto md:text-right">
+                <hr className="w-32 pb-6 mt-8 border-t-4 md:ml-auto" />
+                <p>
+                  <strong className="mr-1 text-white uppercase">
+                    Location
+                    <br className="hidden md:inline" />{' '}
+                  </strong>
+                  <span className="font-thin text-white">
+                    {site.siteMetadata.addressFirstLine}
+                    <br />
+                    {site.siteMetadata.addressSecondLine}
+                  </span>
+                </p>
+                <p className="mt-2">
+                  <strong className="mr-1 text-white uppercase">
+                    Hours
+                    <br className="hidden md:inline" />{' '}
+                  </strong>
+                  <span className="font-thin text-white">
+                    {site.siteMetadata.hours}
+                  </span>
+                </p>
+              </div>
+              <a
+                href={site.siteMetadata.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-6 md:ml-0 md:order-first"
+              >
+                <FacebookLogo
+                  className="flex-shrink-0 w-8"
+                  pathClass="fill-current text-fuschia"
+                />
+              </a>
+            </div>
+          </div>
+          <Map />
         </div>
       </div>
-      <div className="px-12 pt-3 pb-6 font-light text-center border-t-2 border-gray-300">
-        Website design by{' '}
+      <div className="px-12 pt-2 pb-6 text-center">
         <a
           href="https://www.phirannodesigns.com.au"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-black"
+          className="text-sm font-semibold uppercase text-fuschia"
         >
-          Phiranno Designs {new Date().getFullYear()}
+          Website by Phiranno Designs
         </a>
       </div>
     </footer>
