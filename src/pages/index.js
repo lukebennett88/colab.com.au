@@ -6,6 +6,7 @@ import Hero from '../components/hero';
 import Booking from '../components/booking';
 import Pricing from '../components/pricing';
 import Contact from '../components/contact';
+import WhatIsColab from '../components/what-is-colab';
 import FullImage from '../components/full-image';
 
 import useGraphql from '../hooks/use-graphql';
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <FullImage img={data.bookingImage} />
       <Pricing />
       <FullImage img={data.pricingImage} />
+      <WhatIsColab />
       <FullImage img={data.whatIsColabImage} />
       <Contact />
       <FullImage img={data.contactUsImage} />
