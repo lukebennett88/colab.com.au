@@ -16,6 +16,12 @@ module.exports = {
         display: ['True North', ...tw.fontFamily.sans],
         sans: ['Poppins', ...tw.fontFamily.sans],
       },
+      minHeight: {
+        '48rem': '48rem',
+      },
+      minWidth: {
+        '125pc': '125%',
+      },
       maxWidth: {
         '1920': '1920px',
       },
