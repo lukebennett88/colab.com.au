@@ -22,7 +22,7 @@ const Contact = () => {
       </div>
 
       <div className="relative p-6 mx-4 mt-8 border-2 border-gray-600">
-        <form className="pt-6" data-netlify="true">
+        <form name="contact-form" data-netlify="true" className="pt-6">
           <label htmlFor="full-name" className="flex flex-col mt-4 first:mt-0">
             <div className="uppercase font-display text-fuschia font-bold">
               Full name
