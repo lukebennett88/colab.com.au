@@ -35,6 +35,7 @@ const Contact = () => {
           encType="application/x-www-form-urlencoded"
           action="/success"
         >
+          {/* Hidden input necessary for Netlify forms to parse correctly */}
           <input type="hidden" name="form-name" value="contact-form" />
           <label htmlFor="full-name" className="flex flex-col mt-4 first:mt-0">
             <div className="font-bold uppercase font-display text-fuschia">
