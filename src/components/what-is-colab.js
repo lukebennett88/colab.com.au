@@ -10,7 +10,7 @@ const WhatIsColab = () => {
 
   return (
     <Wrapper id="about">
-      <div className="relative flex flex-wrap mx-6 mt-12">
+      <div className="relative flex flex-wrap pt-20 mx-6">
         <div className="relative w-full px-6 pt-12 border-2 border-gray-600 pb-72 md:py-24 md:pr-12 md:w-1/2">
           <img
             src={cornerChevron}
