@@ -45,7 +45,7 @@ const Form = () => {
       action="/success/"
       data-netlify="true"
       method="POST"
-      name="contact-form"
+      name="contact-form2"
       onSubmit={handleSubmit}
       className="px-4 py-4 mt-10 bg-gray-200"
     >
