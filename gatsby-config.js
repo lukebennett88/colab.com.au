@@ -4,7 +4,7 @@ const tw = require('./tailwind.config');
 module.exports = {
   siteMetadata: {
     title: `CoLab`,
-    description: `Braille@Barrier manufacture all our braille and tactile signs in-house by employing the latest technologies. Our plant is equipped to cut and print custom shapes and standard plates for your requirements.`,
+    description: `CoLab is a community hub and workspace located at the Sovereign Place Town Centre. Join like-minded people in this unique working environment or hire out CoLab for your business needs.`,
     author: ``,
     addressFirstLine: `15 Chancellors Drive`,
     addressSecondLine: `2444 Port Macquarie`,
@@ -27,9 +27,9 @@ module.exports = {
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://www.braillebarrier.com.au`,
-      },
+      // options: {
+      //   siteUrl: `https://www.colabpmq.com.au`,
+      // },
     },
     {
       resolve: `gatsby-plugin-manifest`,

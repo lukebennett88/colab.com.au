@@ -1,3 +1,3 @@
-# Braille@Barrier
+# CoLab
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a2433e06-a9f6-4904-82f3-154e7244cb8e/deploy-status)](https://app.netlify.com/sites/braillebarrier/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc8e2642-bcb5-4c5a-a964-d41845317430/deploy-status)](https://app.netlify.com/sites/colabpmq/deploys)
