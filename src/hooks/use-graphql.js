@@ -14,6 +14,7 @@ const useGraphql = () => {
           hours
           facebook
           googleMapsEmbedUrl
+          booking
         }
       }
       heroImage: file(relativePath: { eq: "hero.jpg" }) {

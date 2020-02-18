@@ -1,7 +1,13 @@
 import React from 'react';
 import Wrapper from '../wrapper';
 
+import chevronLeft from '../../images/chevron-left.svg';
+
+import useGraphql from '../../hooks/use-graphql';
+
 const DesktopBooking = () => {
+  const data = useGraphql();
+
   return (
     <Wrapper isDesktopOnly>
       <div className="relative w-1/2 p-6 mx-6 mt-20 border-2 border-gray-600">
@@ -11,15 +17,22 @@ const DesktopBooking = () => {
         </h2>
 
         <p className="text-left">
-          <button
-            type="button"
-            className="w-48 py-2 mt-6 text-center text-white uppercase bg-fuschia font-display"
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={data.site.siteMetadata.booking}
+            className="inline-block w-48 py-2 mt-6 text-center text-white uppercase bg-fuschia font-display"
           >
             Click to book
-          </button>
+          </a>
         </p>
       </div>
       <div className="relative float-right w-1/2 mt-4 -mt-56 bg-fuschia">
+        <img
+          src={chevronLeft}
+          alt=""
+          className="absolute inset-y-0 left-0 h-12 my-auto ml-px transform -translate-x-full"
+        />
         <div className="flex justify-center">
           <ul className="p-6 text-white">
             <li className="leading-none">

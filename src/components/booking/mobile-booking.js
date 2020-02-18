@@ -1,11 +1,21 @@
 import React from 'react';
 
 import Wrapper from '../wrapper';
+import chevronRight from '../../images/chevron-right.svg';
+
+import useGraphql from '../../hooks/use-graphql';
 
 const MobileBooking = () => {
+  const data = useGraphql();
+
   return (
     <Wrapper isMobileOnly>
       <div className="relative p-6 mx-6 mt-20 border-2 border-gray-600">
+        <img
+          src={chevronRight}
+          alt=""
+          className="absolute top-0 left-0 h-16 mt-6 ml-3 transform -translate-x-full"
+        />
         <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
           Book in 3 <br /> Easy Steps
         </h2>
@@ -27,12 +37,14 @@ const MobileBooking = () => {
         </div>
 
         <p className="text-right">
-          <button
-            type="button"
-            className="w-48 py-2 mt-6 text-center text-white uppercase bg-fuschia font-display"
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={data.site.siteMetadata.booking}
+            className="inline-block w-48 py-2 mt-6 text-center text-white uppercase bg-fuschia font-display"
           >
             Click to book
-          </button>
+          </a>
         </p>
       </div>
     </Wrapper>
