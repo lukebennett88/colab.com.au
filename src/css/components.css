@@ -14,25 +14,6 @@
   }
 }
 
-.button {
-  @apply relative inline-flex items-center justify-center px-12 py-3 text-2xl font-semibold leading-none text-center text-white whitespace-no-wrap rounded-l-full rounded-r-full;
-}
-
-.button:hover {
-  top: -1px;
-  @apply shadow-md;
-}
-
-.button-small {
-  @apply px-4 py-2 text-base;
-}
-
-.active::before {
-  @apply absolute inset-y-0 left-0 flex items-center justify-center block w-12 h-3 my-auto transform -translate-x-4 bg-no-repeat;
-  content: "";
-  background-image: url("../images/pointer-white.svg");
-}
-
 .h2 {
   @apply mt-12 text-4xl font-light leading-none text-black;
 }
@@ -43,9 +24,13 @@
   }
 }
 
-.line-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  @apply overflow-hidden;
+.button {
+  @apply relative inline-flex items-center justify-center px-6 py-3 text-2xl leading-none text-center text-white whitespace-no-wrap rounded-none font-display;
+}
+
+
+.active::before {
+  @apply absolute inset-y-0 left-0 flex items-center justify-center block w-12 h-3 my-auto transform -translate-x-4 bg-no-repeat;
+  content: "";
+  background-image: url("../images/pointer-white.svg");
 }

@@ -4,12 +4,11 @@ import { Link } from 'gatsby';
 const Success = () => {
   return (
     <article id="success" className="px-6 py-12">
-      <div className="w-full max-w-3xl pt-6 mx-auto">
+      <div className="w-full max-w-3xl pt-6 mx-auto font-display">
         <div className="pt-6">
           <h2 className="mt-12 h2">
-            Message <span className="font-semibold">received</span>. <br />
-            We'll get back to you <span className="font-semibold">shortly</span>
-            .
+            Message received. <br />
+            We'll get back to you shortly.
           </h2>
           <p className="mt-12">
             <Link to="/" className="w-auto mt-0 bg-fuschia button">
