@@ -23,7 +23,7 @@ const Header = ({ home, isOpen, setOpen }) => {
         <span className="sr-only">Close Menu</span>
       </button>
       <header
-        className={`fixed h-screen z-50 py-20 text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
+        className={`fixed min-h-screen z-50 py-20 text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
           isOpen ? ' translate-x-0' : ' -translate-x-full'
         }`}
       >
@@ -39,8 +39,12 @@ const Header = ({ home, isOpen, setOpen }) => {
           <IoIosClose aria-label="Close menu" />
         </button>
         <nav>
-          <img src={logo} alt="CoLab logo." className="w-full px-8" />
-          <ul className="w-full mt-12 leading-tight uppercase">
+          <img
+            src={logo}
+            alt="CoLab logo."
+            className="hidden w-full px-8 lg:block"
+          />
+          <ul className="w-full mt-3 leading-tight uppercase lg:mt-12">
             {navItems.map(navItem => (
               <li key={navItem.id} className="flex text-2xl font-display">
                 {home ? (
