@@ -25,12 +25,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
-    {
-      // resolve: `gatsby-plugin-canonical-urls`,
-      // options: {
-      //   siteUrl: `https://www.colabpmq.com.au`,
-      // },
-    },
+    // {
+    //   // resolve: `gatsby-plugin-canonical-urls`,
+    //   // options: {
+    //   //   siteUrl: `https://www.colabpmq.com.au`,
+    //   // },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
