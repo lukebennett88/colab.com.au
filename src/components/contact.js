@@ -46,6 +46,7 @@ const Contact = () => {
               id="full-name"
               type="text"
               name="full-name"
+              required
             />
           </label>
           <label htmlFor="email" className="flex flex-col mt-4 first:mt-0">
@@ -57,6 +58,7 @@ const Contact = () => {
               id="email"
               type="email"
               name="email"
+              required
             />
           </label>
           <label htmlFor="phone" className="flex flex-col mt-4 first:mt-0">
@@ -68,6 +70,7 @@ const Contact = () => {
               id="phone"
               type="text"
               name="phone"
+              required
             />
           </label>
           <label htmlFor="subject" className="flex flex-col mt-4 first:mt-0">
@@ -79,6 +82,7 @@ const Contact = () => {
               id="subject"
               type="text"
               name="subject"
+              required
             />
           </label>
           <label htmlFor="message" className="flex flex-col mt-4 first:mt-0">
@@ -90,6 +94,7 @@ const Contact = () => {
               className="w-full h-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
               id="message"
               name="message"
+              required
             />
           </label>
           <div className="flex items-center justify-end mt-4">

@@ -10,7 +10,7 @@ module.exports = {
     addressSecondLine: `2444 Port Macquarie`,
     ABN: `53 003 154 041`,
     phone: `(02) 6552 7200`,
-    email: `sales@barriersigns.com.au`,
+    email: `colabpmq@sovereignhills.com.au`,
     siteUrl: `https://www.colabpmq.com.au`,
     hours: `Monday - Friday 9am - 5pm`,
     facebook: `https://www.facebook.com/colabpmq`,
