@@ -10,7 +10,7 @@ const MobileBooking = () => {
 
   return (
     <Wrapper isMobileOnly>
-      <div className="relative p-6 mx-6 mt-20 border-2 border-gray-600">
+      <div className="relative p-6 pt-20 mx-6 border-2 border-gray-600">
         <img
           src={chevronRight}
           alt=""
