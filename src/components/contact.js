@@ -1,10 +1,11 @@
 import React from 'react';
 
 import Wrapper from './wrapper';
+import chevronDown from '../images/chevron-down.svg';
 
 const Contact = () => {
   return (
-    <Wrapper>
+    <Wrapper id="contact">
       <div className="flex flex-wrap mx-4 mt-20">
         <div className="md:w-1/3">
           <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
@@ -22,6 +23,11 @@ const Contact = () => {
       </div>
 
       <div className="relative p-6 mx-4 mt-8 border-2 border-gray-600">
+        <img
+          src={chevronDown}
+          alt=""
+          className="absolute top-0 left-0 h-8 ml-3 -mt-3 md:h-10"
+        />
         <form name="contact-form" data-netlify="true" className="pt-6">
           <label htmlFor="full-name" className="flex flex-col mt-4 first:mt-0">
             <div className="font-bold uppercase font-display text-fuschia">
@@ -76,7 +82,7 @@ const Contact = () => {
           <div className="flex items-center justify-end mt-4">
             <button
               className="px-4 py-2 text-white font-display bg-fuschia focus:outline-none focus:shadow-none focus:border-fuschia"
-              type="button"
+              type="submit"
             >
               Submit
             </button>

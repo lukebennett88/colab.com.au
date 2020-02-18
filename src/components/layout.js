@@ -20,9 +20,7 @@ const Layout = ({ home, children }) => {
                   <button
                     type="button"
                     onClick={() => setOpen(!isOpen)}
-                    className={`${
-                      isOpen ? 'text-white ' : 'text-gray-800 '
-                    }absolute flex items-center mt-6 text-sm tracking-wider font-semibold uppercase transition-colors ease-in duration-250 lg:hidden`}
+                    className="absolute top-0 z-50 flex items-center mt-6 text-sm font-semibold tracking-widest text-white uppercase transition-colors ease-in duration-250 lg:hidden"
                   >
                     {isOpen ? (
                       <IoIosClose className="mr-1 text-3xl" />

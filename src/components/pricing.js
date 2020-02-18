@@ -1,11 +1,17 @@
 import React from 'react';
 
 import Wrapper from './wrapper';
+import chevronRight from '../images/chevron-right.svg';
 
 const Pricing = () => {
   return (
-    <Wrapper>
+    <Wrapper id="pricing">
       <div className="relative p-6 mx-6 mt-20 border-2 border-gray-600">
+        <img
+          src={chevronRight}
+          alt=""
+          className="absolute top-0 left-0 h-16 mt-6 transform -translate-x-full md:mt-2 md:-ml-3"
+        />
         <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
           CoLab <br className="md:hidden" />
           Pricing Rates

@@ -10,7 +10,10 @@ const Hero = () => {
   const data = useGraphql();
 
   return (
-    <article className="relative flex items-end justify-end min-h-screen">
+    <article
+      id="home"
+      className="relative flex items-end justify-end min-h-screen"
+    >
       <div className="absolute inset-0">
         <Image
           fluid={data.heroImage.childImageSharp.fluid}
@@ -29,7 +32,11 @@ const Hero = () => {
         </h1>
       </div>
       <div className="fixed bottom-0 right-0 z-20 mb-56 mr-5 md:mr-20 md:pr-3">
-        <a href="#!">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={data.site.siteMetadata.booking}
+        >
           <img src={bookHere} alt="Book here button" className="w-20" />
         </a>
       </div>
