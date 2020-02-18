@@ -26,7 +26,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-plugin-canonical-urls`,
+      // resolve: `gatsby-plugin-canonical-urls`,
       // options: {
       //   siteUrl: `https://www.colabpmq.com.au`,
       // },
