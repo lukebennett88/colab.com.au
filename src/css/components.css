@@ -1,18 +1,16 @@
 /* These classes have lower specificity so we can override them
    with utility classes */
 
-.map-clip-path {
-  /* clip-path: polygon(100% 0, 100% 80%, 87% 80%, 71% 100%, 55% 80%, 0 80%, 0 0); */
+/* .map-clip-path {
   clip-path: polygon(100% 0, 100% 90%, 43% 90%, 28% 100%, 11% 90%, 0 90%, 0 0);
+} */
 
-}
-
-@screen md {
+/* @screen md {
   .map-clip-path {
     clip-path: polygon(100% 0, 100% 100%, 15% 100%, 15% 70%, 4% 55%, 15% 40%, 15% 0);
 
   }
-}
+} */
 
 .h2 {
   @apply mt-12 text-4xl font-light leading-none text-black;
