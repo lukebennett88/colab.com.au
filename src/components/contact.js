@@ -27,7 +27,12 @@ const Contact = () => {
           alt=""
           className="absolute top-0 left-0 h-8 ml-3 -mt-3 md:h-10"
         />
-        <form name="contact-form" data-netlify="true" className="pt-6">
+        <form
+          name="contact-form"
+          method="POST"
+          data-netlify="true"
+          className="pt-6"
+        >
           <label htmlFor="full-name" className="flex flex-col mt-4 first:mt-0">
             <div className="font-bold uppercase font-display text-fuschia">
               Full name
