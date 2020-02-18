@@ -6,7 +6,7 @@ import chevronDown from '../images/chevron-down.svg';
 const Contact = () => {
   return (
     <Wrapper id="contact">
-      <div className="flex flex-wrap mx-4 mt-20">
+      <div className="flex flex-wrap pt-20 mx-4">
         <div className="md:w-1/3">
           <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
             Got A <br className="hidden md:inline" />
@@ -15,9 +15,8 @@ const Contact = () => {
         </div>
         <div className="mt-2 md:mt-0 md:w-2/3">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            natus optio necessitatibus eos illo tempora dolorum eaque minus
-            aspernatur rem.
+            Looking for additional details or information about CoLab? Just fill
+            out the form below, and we'll get back to you as soon as possible.
           </p>
         </div>
       </div>
