@@ -8,6 +8,7 @@ const useGraphql = () => {
           title
           addressFirstLine
           addressSecondLine
+          addressThirdLine
           ABN
           phone
           email
