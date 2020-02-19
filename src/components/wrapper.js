@@ -10,11 +10,11 @@ const Wrapper = ({
   return (
     <article
       id={id}
-      className={`${isMobileOnly ? 'md:hidden ' : ''}w-full max-w-4xl mx-auto${
-        isDesktopOnly ? ' hidden md:block' : ''
-      }`}
+      className={`${isMobileOnly ? 'md:hidden ' : ''}${
+        isDesktopOnly ? 'hidden md:block ' : ''
+      }relative`}
     >
-      {children}
+      <div className="w-full max-w-4xl mx-auto">{children}</div>
     </article>
   );
 };
