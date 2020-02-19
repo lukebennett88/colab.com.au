@@ -18,12 +18,12 @@ const IndexPage = () => {
     <Layout home>
       <SEO title="CoLab" />
       <Hero />
+      <WhatIsColab />
+      <FullImage img={data.whatIsColabImage} className="mt-48" />
       <Booking />
       <FullImage img={data.bookingImage} />
       <Pricing />
       <FullImage img={data.pricingImage} />
-      <WhatIsColab />
-      <FullImage img={data.whatIsColabImage} className="mt-48" />
       <Contact />
       <FullImage img={data.contactUsImage} />
     </Layout>

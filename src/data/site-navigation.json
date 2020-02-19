@@ -7,20 +7,20 @@
   },
   {
     "id": 2,
+    "label": "About",
+    "href": "#about",
+    "isActive": false
+  },
+  {
+    "id": 3,
     "label": "Booking",
     "href": "#booking",
     "isActive": false
   },
   {
-    "id": 3,
+    "id": 4,
     "label": "Pricing",
     "href": "#pricing",
-    "isActive": false
-  },
-  {
-    "id": 4,
-    "label": "About",
-    "href": "#about",
     "isActive": false
   },
   {
