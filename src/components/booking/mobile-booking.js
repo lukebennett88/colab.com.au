@@ -3,10 +3,10 @@ import React from 'react';
 import Wrapper from '../wrapper';
 import chevronRight from '../../images/chevron-right.svg';
 
-import useGraphql from '../../hooks/use-graphql';
+import { useGraphQL } from '../../hooks/use-graphql';
 
 const MobileBooking = () => {
-  const data = useGraphql();
+  const data = useGraphQL();
 
   return (
     <Wrapper isMobileOnly>

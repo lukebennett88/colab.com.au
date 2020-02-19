@@ -1,9 +1,9 @@
 import React from 'react';
 
-import useGraphql from '../hooks/use-graphql';
+import { useGraphQL } from '../hooks/use-graphql';
 
 const Map = () => {
-  const { site } = useGraphql();
+  const { site } = useGraphQL();
 
   return (
     <div className="w-full px-4 md:w-1/2 map-clip-path">

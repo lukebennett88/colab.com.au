@@ -9,10 +9,10 @@ import Contact from '../components/contact';
 import WhatIsColab from '../components/what-is-colab';
 import FullImage from '../components/full-image';
 
-import useGraphql from '../hooks/use-graphql';
+import { useGraphQL } from '../hooks/use-graphql';
 
 const IndexPage = () => {
-  const data = useGraphql();
+  const data = useGraphQL();
 
   return (
     <Layout home>

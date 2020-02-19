@@ -1,11 +1,11 @@
 import React from 'react';
 
-import useGraphql from '../hooks/use-graphql';
+import { useGraphQL } from '../hooks/use-graphql';
 import FacebookLogo from './facebook-logo';
 import Map from './map';
 
 const Footer = () => {
-  const { site } = useGraphql();
+  const { site } = useGraphQL();
   return (
     <footer className="mt-64 md:mt-32 bg-purpbrown">
       <div className="w-full max-w-4xl py-6 mx-auto">

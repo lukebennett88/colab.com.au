@@ -1,13 +1,13 @@
 import Image from 'gatsby-image';
 import React from 'react';
 
-import useGraphql from '../hooks/use-graphql';
+import { useGraphQL } from '../hooks/use-graphql';
 import Logo from './logo';
 
 import bookHere from '../images/book-here-button.svg';
 
 const Hero = () => {
-  const data = useGraphql();
+  const data = useGraphQL();
 
   return (
     <article

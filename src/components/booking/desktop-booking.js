@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Wrapper from '../wrapper';
-import useGraphql from '../../hooks/use-graphql';
+import { useGraphQL } from '../../hooks/use-graphql';
 import chevronLeft from '../../images/chevron-left.svg';
 
 const DesktopBooking = () => {
-  const { site } = useGraphql();
+  const { site } = useGraphQL();
   return (
     <Wrapper isDesktopOnly>
       <div className="flex flex-wrap items-center pt-20">

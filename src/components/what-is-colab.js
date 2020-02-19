@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'gatsby-image';
-import useGraphql from '../hooks/use-graphql';
+import { useGraphQL } from '../hooks/use-graphql';
 
 import Wrapper from './wrapper';
 import cornerChevron from '../images/corner-style.svg';
 
 const WhatIsColab = () => {
-  const data = useGraphql();
+  const data = useGraphQL();
 
   return (
     <Wrapper id="about">
