@@ -31,13 +31,17 @@ const Hero = () => {
           <br /> and Work Space
         </h1>
       </div>
-      <div className="fixed bottom-0 right-0 z-20 mb-56 mr-5 md:mr-20 md:pr-3">
+      <div className="fixed bottom-0 right-0 z-20 mb-56 mr-5 md:mr-12 md:pr-3">
         <a
           target="_blank"
           rel="noopener noreferrer"
           href={data.site.siteMetadata.booking}
         >
-          <img src={bookHere} alt="Book here button" className="w-20" />
+          <img
+            src={bookHere}
+            alt="Book here button"
+            className="w-20 rounded-full shadow-md"
+          />
         </a>
       </div>
     </article>
