@@ -14,7 +14,7 @@ module.exports = {
     siteUrl: `https://www.colabpmq.com.au`,
     hours: `Monday - Friday 9am - 5pm`,
     facebook: `https://www.facebook.com/colabpmq`,
-    googleMapsEmbedUrl: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.4054063725466!2d152.8262667153204!3d-31.458032305415685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b76000716e65573%3A0x637654d59c847317!2s15%20Chancellors%20Dr%2C%20Thrumster%20NSW%202444!5e0!3m2!1sen!2sau!4v1581901430263!5m2!1sen!2sau`,
+    googleMapsEmbedUrl: `https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13613.620943067872!2d152.8240776349058!3d-31.458037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b76000716e65573%3A0x637654d59c847317!2s15%20Chancellors%20Dr%2C%20Thrumster%20NSW%202444!5e0!3m2!1sen!2sau!4v1582086322120!5m2!1sen!2sau`,
     booking: `https://colabpmq.skedda.com/booking`,
   },
   plugins: [
