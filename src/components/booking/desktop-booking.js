@@ -8,8 +8,8 @@ const DesktopBooking = () => {
   const { site } = useGraphQL();
   return (
     <Wrapper isDesktopOnly>
-      <div className="flex flex-wrap items-center pt-20">
-        <div className="w-1/2 p-6 px-6 border-2 border-gray-600">
+      <div className="flex flex-wrap items-center pt-20 mx-6">
+        <div className="w-1/2 px-12 py-10 border-2 border-gray-600">
           <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
             It only takes <br /> 3 Easy Steps <br />
             To book any <br /> Space
@@ -31,23 +31,23 @@ const DesktopBooking = () => {
             alt=""
             className="absolute inset-y-0 left-0 h-12 my-auto ml-px transform -translate-x-full"
           />
-          <div className="flex justify-center">
-            <ul className="p-6 text-white">
-              <li className="leading-none">
-                <strong className="font-display">STEP 1.</strong> Click on the{' '}
-                <br /> book button
-              </li>
-              <li className="mt-2 leading-none">
-                <strong className="font-display">STEP 2.</strong> Select the
-                <br />
-                membership you are
-                <br /> after
-              </li>
-              <li className="mt-2 leading-none">
-                <strong className="font-display">STEP 3.</strong> Make payment
-              </li>
-            </ul>
-          </div>
+          <ol className="px-12 py-6 text-xl text-white">
+            <li className="mt-3 leading-none first:mt-0">
+              <strong className="uppercase font-display">Step 1.</strong> Click
+              on the <br /> book button
+            </li>
+            <li className="mt-3 leading-none first:mt-0">
+              <strong className="uppercase font-display">Step 2.</strong> Select
+              the
+              <br />
+              membership you are
+              <br /> after
+            </li>
+            <li className="mt-3 leading-none first:mt-0">
+              <strong className="uppercase font-display">Step 3.</strong> Make
+              payment
+            </li>
+          </ol>
         </div>
       </div>
     </Wrapper>

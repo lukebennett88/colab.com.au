@@ -21,19 +21,19 @@ const MobileBooking = () => {
         </h2>
 
         <div className="mt-4 bg-fuschia">
-          <ul className="p-6 text-white">
-            <li className="leading-none">
+          <ol className="p-6 text-lg text-white">
+            <li className="mt-3 leading-none first:mt-0">
               <strong className="font-display">STEP 1.</strong> Click on the
               book button
             </li>
-            <li className="mt-2 leading-none">
+            <li className="mt-3 leading-none first:mt-0">
               <strong className="font-display">STEP 2.</strong> Select the
               membership you are after
             </li>
-            <li className="mt-2 leading-none">
+            <li className="mt-3 leading-none first:mt-0">
               <strong className="font-display">STEP 3.</strong> Make payment
             </li>
-          </ul>
+          </ol>
         </div>
 
         <p className="text-right">
