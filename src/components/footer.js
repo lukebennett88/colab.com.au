@@ -25,6 +25,8 @@ const Footer = () => {
                     {site.siteMetadata.addressSecondLine}
                     <br />
                     {site.siteMetadata.addressThirdLine}
+                    <br />
+                    {site.siteMetadata.addressFourthLine}
                   </span>
                 </p>
                 <p className="mt-2">

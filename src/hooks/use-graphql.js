@@ -9,6 +9,7 @@ export const useGraphQL = () => {
           addressFirstLine
           addressSecondLine
           addressThirdLine
+          addressFourthLine
           ABN
           phone
           email
