@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="relative px-6 py-4 md:py-16 md:px-24">
         <h1 className="text-4xl font-bold leading-none text-right text-white uppercase md:text-5xl font-display">
           Port Macquarie's
-          <br /> Finest Community Hub
+          <br /> Fresh Community Hub
           <br /> and Work Space
         </h1>
       </div>
