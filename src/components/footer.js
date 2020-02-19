@@ -7,7 +7,7 @@ import Map from './map';
 const Footer = () => {
   const { site } = useGraphQL();
   return (
-    <footer className="mt-64 md:mt-32 bg-purpbrown">
+    <footer className="mt-64 md:mt-32 bg-gray-800">
       <div className="w-full max-w-4xl py-6 mx-auto">
         <div className="relative flex flex-wrap-reverse -mt-64 md:-mt-16">
           <div className="px-6 mt-auto md:w-1/2">
@@ -47,7 +47,7 @@ const Footer = () => {
               >
                 <FacebookLogo
                   className="flex-shrink-0 w-8"
-                  pathClass="fill-current text-fuschia"
+                  pathClass="fill-current text-fuschia hover:text-white transition-colors duration-500 ease-in-out"
                 />
               </a>
             </div>

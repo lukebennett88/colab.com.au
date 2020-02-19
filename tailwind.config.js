@@ -6,10 +6,10 @@ module.exports = {
       colors: {
         'transparent-black': 'hsla(0, 0%, 0%, 0.5)',
         fuschia: '#CA0088',
-        purpbrown: '#40383D',
         gray: {
           ...tw.colors.gray,
           '600': '#707070',
+          '800': '#40383D',
         },
       },
       fontFamily: {

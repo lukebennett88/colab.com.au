@@ -27,18 +27,15 @@ const Pricing = () => {
                   (Mon - Fri)
                 </span>
               </h3>
-              <div className="flex text-xs text-black md:text-base md:block">
+              <div className="flex text-xs text-gray-800 md:text-base md:block">
                 <p className="ml-2 md:ml-0 first:ml-0 md:mt-2">
-                  <strong>Half Day</strong>{' '}
-                  <span className="text-gray-700">$19</span>
+                  <strong className="text-gray-800">Half Day</strong> $19
                 </p>
                 <p className="ml-2 md:ml-0 first:ml-0">
-                  <strong>One Day</strong>{' '}
-                  <span className="text-gray-700">$29</span>
+                  <strong className="text-gray-800">One Day</strong> $29
                 </p>
                 <p className="ml-2 md:ml-0 first:ml-0">
-                  <strong>5 Full Days</strong>{' '}
-                  <span className="text-gray-700">$79</span>
+                  <strong className="text-gray-800">5 Full Days</strong> $79
                 </p>
               </div>
             </div>
@@ -50,14 +47,18 @@ const Pricing = () => {
                   (Mon - Fri)
                 </span>
               </h3>
-              <div className="flex text-xs text-black md:text-base md:block">
+              <div className="flex text-xs text-gray-800 md:text-base md:block">
                 <p className="ml-2 md:ml-0 first:ml-0 md:mt-2">
-                  <strong>Part Time (2 Days)</strong>{' '}
-                  <span className="text-gray-700">$79</span>
+                  <strong className="text-gray-800">
+                    Part Time (2 Days <sup>pw*</sup>)
+                  </strong>{' '}
+                  $79
                 </p>
                 <p className="ml-2 md:ml-0 first:ml-0">
-                  <strong>Full Time</strong>{' '}
-                  <span className="text-gray-700">$179</span>
+                  <strong className="text-gray-800">
+                    Full Time (5 Days <sup>pw*</sup>)
+                  </strong>{' '}
+                  $179
                 </p>
               </div>
             </div>
@@ -69,14 +70,14 @@ const Pricing = () => {
                   (After hours)
                 </span>
               </h3>
-              <div className="flex text-xs text-black md:text-base md:block">
+              <div className="flex text-xs text-gray-800 md:text-base md:block">
                 <p className="ml-2 md:ml-0 first:ml-0 md:mt-2">
-                  <strong>Weekdays</strong>{' '}
-                  <span className="text-gray-700">$29</span> <sup>ph*</sup>
+                  <strong className="text-gray-800">Weekdays</strong> $29{' '}
+                  <sup>ph*</sup>
                 </p>
                 <p className="ml-2 md:ml-0 first:ml-0">
-                  <strong>Weekends</strong>{' '}
-                  <span className="text-gray-700">$49</span> <sup>ph*</sup>
+                  <strong className="text-gray-800">Weekends</strong> $49{' '}
+                  <sup>ph*</sup>
                 </p>
               </div>
               <p className="-mt-4 text-xs font-light md:mt-2">
