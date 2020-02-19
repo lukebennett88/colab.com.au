@@ -73,18 +73,6 @@ const Contact = () => {
               required
             />
           </label>
-          <label htmlFor="subject" className="flex flex-col mt-4 first:mt-0">
-            <div className="font-bold uppercase font-display text-fuschia">
-              Subject
-            </div>
-            <input
-              className="w-full px-3 py-2 text-gray-700 border border-gray-600 appearance-none focus:outline-none focus:shadow-none focus:border-fuschia"
-              id="subject"
-              type="text"
-              name="subject"
-              required
-            />
-          </label>
           <label htmlFor="message" className="flex flex-col mt-4 first:mt-0">
             <div className="font-bold uppercase font-display text-fuschia">
               Message
