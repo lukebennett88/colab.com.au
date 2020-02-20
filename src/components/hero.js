@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <Image
           fluid={data.heroImage.childImageSharp.fluid}
-          className="h-full"
+          className="h-full overlay"
         />
       </div>
       <Logo
@@ -36,11 +36,12 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
           href={data.site.siteMetadata.booking}
+          className="flex w-20 h-20 border-2 rounded-full border-fuschia"
         >
           <img
             src={bookHere}
             alt="Book here button"
-            className="w-20 rounded-full shadow-md"
+            className="flex-shrink-0 w-full border-2 border-white rounded-full"
           />
         </a>
       </div>

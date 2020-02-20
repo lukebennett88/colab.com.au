@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'transparent-black': 'hsla(0, 0%, 0%, 0.5)',
+        'transparent-black': 'hsla(0, 0%, 0%, 0.2)',
         fuschia: '#CA0088',
         gray: {
           ...tw.colors.gray,
