@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 
 import SiteContext from '../context/site-context';
 import logo from '../images/logo.svg';
+import MobileMenuFooter from './mobile-menu-footer';
 
 const Header = ({ home, isOpen, setOpen }) => {
   const { navItems } = React.useContext(SiteContext);
@@ -23,7 +24,7 @@ const Header = ({ home, isOpen, setOpen }) => {
         <span className="sr-only">Close Menu</span>
       </button>
       <header
-        className={`fixed h-screen z-50 py-20 text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
+        className={`flex flex-col fixed h-screen z-50 py-20 text-white bg-blue-600 transform transition ease-in duration-200 lg:sticky lg:top-0 lg:bottom-0 lg:left-0 w-80 bg-fuschia lg:translate-x-0${
           isOpen ? ' translate-x-0' : ' -translate-x-full'
         }`}
       >
@@ -71,6 +72,7 @@ const Header = ({ home, isOpen, setOpen }) => {
             ))}
           </ul>
         </nav>
+        <MobileMenuFooter />
       </header>
     </>
   );

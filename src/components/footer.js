@@ -57,7 +57,7 @@ const Footer = () => {
           href="https://www.phirannodesigns.com.au"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm font-semibold uppercase text-fuschia"
+          className="text-sm font-semibold text-white"
         >
           Website by Phiranno Designs
         </a>

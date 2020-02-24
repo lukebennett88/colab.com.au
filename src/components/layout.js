@@ -10,7 +10,7 @@ const Layout = ({ home, children }) => {
 
   return (
     <div className="font-sans antialiased text-gray-700 bg-gray-100">
-      <div className="w-full mx-auto bg-white max-w-1920">
+      <div className="w-full mx-auto bg-white">
         <div className="shadow">
           <div className="relative flex">
             <Header home={home} isOpen={isOpen} setOpen={setOpen} />
