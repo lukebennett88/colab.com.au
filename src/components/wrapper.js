@@ -21,9 +21,9 @@ const Wrapper = ({
 
 Wrapper.propTypes = {
   children: PropTypes.node.isRequired,
-  isMobileOnly: PropTypes.bool.isRequired,
-  isDesktopOnly: PropTypes.bool.isRequired,
-  id: PropTypes.string.isRequired,
+  isMobileOnly: PropTypes.bool,
+  isDesktopOnly: PropTypes.bool,
+  id: PropTypes.string,
 };
 
 export default Wrapper;
