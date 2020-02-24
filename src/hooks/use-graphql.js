@@ -28,14 +28,14 @@ export const useGraphQL = () => {
       }
       bookingImage: file(relativePath: { eq: "booking.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       pricingImage: file(relativePath: { eq: "pricing.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
@@ -44,21 +44,21 @@ export const useGraphQL = () => {
         relativePath: { eq: "what-is-colab-inner.jpg" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       whatIsColabImage: file(relativePath: { eq: "what-is-colab.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
       contactUsImage: file(relativePath: { eq: "contact.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1920) {
+          fluid(maxWidth: 1920, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp
           }
         }
