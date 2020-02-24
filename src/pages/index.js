@@ -21,7 +21,7 @@ const IndexPage = () => {
       <WhatIsColab />
       <FullImage img={data.whatIsColabImage} className="mt-48" />
       <Booking />
-      <FullImage img={data.bookingImage} />
+      <FullImage img={data.bookingImage} objectPosition="right" />
       <Pricing />
       <FullImage img={data.pricingImage} />
       <Contact />
