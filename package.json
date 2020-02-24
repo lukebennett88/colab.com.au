@@ -47,6 +47,7 @@
   "scripts": {
     "build": "gatsby build",
     "build:serve": "npm run build && npm run serve",
+    "clean": "gatsby clean",
     "develop": "gatsby develop --host=0.0.0.0 --open",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
