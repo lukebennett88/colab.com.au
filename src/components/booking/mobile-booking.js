@@ -27,11 +27,12 @@ const MobileBooking = () => {
               book button
             </li>
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="font-display">STEP 2.</strong> Select the
-              membership you are after
+              <strong className="font-display">STEP 2.</strong> Click on the
+              green plus (+) button, and enter your email address
             </li>
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="font-display">STEP 3.</strong> Make payment
+              <strong className="font-display">STEP 3.</strong> Fill in the
+              booking form
             </li>
           </ol>
         </div>

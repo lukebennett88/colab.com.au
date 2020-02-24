@@ -37,15 +37,15 @@ const DesktopBooking = () => {
               on the <br /> book button
             </li>
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="uppercase font-display">Step 2.</strong> Select
-              the
+              <strong className="uppercase font-display">Step 2.</strong> Click
+              on the
               <br />
-              membership you are
-              <br /> after
+              green plus (+) button, and enter
+              <br /> your email address
             </li>
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="uppercase font-display">Step 3.</strong> Make
-              payment
+              <strong className="uppercase font-display">Step 3.</strong> Fill
+              in the booking form
             </li>
           </ol>
         </div>
