@@ -31,8 +31,8 @@ const WhatIsColab = () => {
             with WiFi, power, cafes and services at your fingertips.
           </p>
           <p className="mt-4 first:mt-0">
-            Book a hot desk in a peaceful air-conditioned environment, or hire a
-            space for your next business or team meeting.
+            Book a hot desk in our peaceful air-conditioned environment, or hire
+            a space for your next business or team meeting.
           </p>
           <p className="mt-4 first:mt-0">
             After hours and weekend venue hire also available.
