@@ -8,7 +8,7 @@ const Pricing = () => {
     <Wrapper id="pricing">
       <div className="px-6 pt-20">
         <div className="absolute top-0 left-0 z-10 hidden mt-24 md:block">
-          <img src={chevronRight} alt="" className="h-20 mt-3" />
+          <img src={chevronRight} alt="" className="h-20 -mt-24" />
         </div>
         <div className="relative px-6 py-12 border-2 border-gray-600">
           <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
