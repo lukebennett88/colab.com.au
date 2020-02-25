@@ -16,8 +16,8 @@ module.exports = {
     siteUrl: `https://www.colabpmq.com.au`,
     hours: `Monday - Friday 9am - 5pm`,
     facebook: `https://www.facebook.com/colabpmq`,
-    googleMapsEmbedUrl: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.7370229806272!2d152.82884045809686!3d-31.456143486519675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b76016cb856d635%3A0x86f469c7e12aba5a!2sSovereign%20Place%20Town%20Centre!5e0!3m2!1sen!2sau!4v1582168375543!5m2!1sen!2sau`,
     booking: `https://colabpmq.skedda.com/booking`,
+    googleMapsEmbedUrl: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1701.7370229806272!2d152.82884045809686!3d-31.456143486519675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b76016cb856d635%3A0x86f469c7e12aba5a!2sSovereign%20Place%20Town%20Centre!5e0!3m2!1sen!2sau!4v1582168375543!5m2!1sen!2sau`,
   },
   plugins: [
     `gatsby-plugin-netlify`,
