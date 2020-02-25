@@ -13,7 +13,7 @@ const Pricing = () => {
         <div className="relative px-6 py-12 border-2 border-gray-600">
           <h2 className="text-4xl leading-none uppercase text-fuschia font-display">
             CoLab <br className="md:hidden" />
-            Pricing Rates
+            Pricing
           </h2>
 
           <div className="flex flex-wrap mt-12 -mx-6 md:justify-between">
