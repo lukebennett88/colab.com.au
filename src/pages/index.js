@@ -19,13 +19,16 @@ const IndexPage = () => {
       <SEO title="CoLab" />
       <Hero />
       <WhatIsColab />
-      <FullImage img={data.whatIsColabImage} className="mt-48" />
+      <FullImage
+        img={data.whatIsColabImage}
+        className="mt-40 md:mt-20"
+        objectPosition="bottom"
+      />
       <Booking />
-      <FullImage img={data.bookingImage} objectPosition="right" />
       <Pricing />
-      <FullImage img={data.pricingImage} />
-      <Contact />
       <FullImage img={data.contactUsImage} />
+      <Contact />
+      <FullImage img={data.pricingImage} />
     </Layout>
   );
 };
