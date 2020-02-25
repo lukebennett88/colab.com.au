@@ -6,7 +6,7 @@ import chevronRight from '../../images/chevron-right.svg';
 import { useGraphQL } from '../../hooks/use-graphql';
 
 const MobileBooking = () => {
-  const data = useGraphQL();
+  const { site } = useGraphQL();
 
   return (
     <Wrapper isMobileOnly>
@@ -23,16 +23,16 @@ const MobileBooking = () => {
         <div className="mt-4 bg-fuschia">
           <ol className="p-6 text-lg text-white">
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="font-display">STEP 1.</strong> Click on the
-              book button
+              <strong className="font-display">STEP 1.</strong>{' '}
+              {site.siteMetadata.stepOne}
             </li>
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="font-display">STEP 2.</strong> Click on the
-              green plus (+) button, and enter your email address
+              <strong className="font-display">STEP 2.</strong>{' '}
+              {site.siteMetadata.stepTwo}
             </li>
             <li className="mt-3 leading-none first:mt-0">
-              <strong className="font-display">STEP 3.</strong> Fill in the
-              booking form
+              <strong className="font-display">STEP 3.</strong>{' '}
+              {site.siteMetadata.stepThree}
             </li>
           </ol>
         </div>
@@ -41,7 +41,7 @@ const MobileBooking = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={data.site.siteMetadata.booking}
+            href={site.siteMetadata.booking}
             className="inline-block w-48 py-2 mt-6 text-center text-white uppercase bg-fuschia font-display"
           >
             Click to book

@@ -17,6 +17,9 @@ export const useGraphQL = () => {
           facebook
           googleMapsEmbedUrl
           booking
+          stepOne
+          stepTwo
+          stepThree
         }
       }
       heroImage: file(relativePath: { eq: "hero.jpg" }) {

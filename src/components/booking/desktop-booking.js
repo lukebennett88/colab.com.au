@@ -31,21 +31,18 @@ const DesktopBooking = () => {
             alt=""
             className="absolute inset-y-0 left-0 h-12 my-auto ml-px transform -translate-x-full"
           />
-          <ol className="px-12 py-6 text-xl text-white">
-            <li className="mt-3 leading-none first:mt-0">
-              <strong className="uppercase font-display">Step 1.</strong> Click
-              on the <br /> book button
+          <ol className="px-12 py-6 text-xl leading-tight text-white">
+            <li className="mt-3 first:mt-0">
+              <strong className="uppercase font-display">Step 1.</strong>{' '}
+              {site.siteMetadata.stepOne}
             </li>
-            <li className="mt-3 leading-none first:mt-0">
-              <strong className="uppercase font-display">Step 2.</strong> Click
-              on the
-              <br />
-              green plus (+) button, and enter
-              <br /> your email address
+            <li className="mt-3 first:mt-0">
+              <strong className="uppercase font-display">Step 2.</strong>{' '}
+              {site.siteMetadata.stepTwo}
             </li>
-            <li className="mt-3 leading-none first:mt-0">
-              <strong className="uppercase font-display">Step 3.</strong> Fill
-              in the booking form
+            <li className="mt-3 first:mt-0">
+              <strong className="uppercase font-display">Step 3.</strong>{' '}
+              {site.siteMetadata.stepThree}
             </li>
           </ol>
         </div>
