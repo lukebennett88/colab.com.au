@@ -7,7 +7,7 @@ module.exports = {
     description: `CoLab is a community hub and workspace located at the Sovereign Place Town Centre. Join like-minded people in this unique working environment or hire out CoLab for your business needs.`,
     author: ``,
     addressFirstLine: `Sovereign Place Town Centre`,
-    addressSecondLine: `Shop X, 15 Chancellors Drive`,
+    addressSecondLine: `Shop T03, 15 Chancellors Drive`,
     addressThirdLine: `Sovereign Hills, Port Macquarie`,
     addressFourthLine: `New South Wales 2444`,
     ABN: `53 003 154 041`,
