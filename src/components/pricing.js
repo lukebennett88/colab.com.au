@@ -48,20 +48,20 @@ const Pricing = () => {
               <div className="flex text-xs text-gray-800 md:text-base md:block">
                 <p className="ml-2 md:ml-0 first:ml-0 md:mt-2">
                   <strong className="text-gray-800">
-                    Part Time (2 Days <sup>pw*</sup>)
+                    Part Time (8 Days <sup>pm*</sup>)
                   </strong>{' '}
                   $79
                 </p>
                 <p className="ml-2 md:ml-0 first:ml-0">
                   <strong className="text-gray-800">
-                    Full Time (5 Days <sup>pw*</sup>)
+                    Full Time (20 Days <sup>pm*</sup>)
                   </strong>{' '}
                   $179
                 </p>
               </div>
               <br className="md:hidden" />
               <p className="-mt-4 font-light leading-none md:mt-2">
-                <small>*Per week</small>
+                <small>*Per month</small>
               </p>
             </div>
             <div className="w-full px-6 mt-4 md:border-l-2 md:border-gray-600 md:first:border-0 md:mt-0 md:w-1/3">
