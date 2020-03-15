@@ -16,7 +16,7 @@ module.exports = {
     siteUrl: `https://www.colabpmq.com.au`,
     hours: `Monday - Friday 9am - 5pm`,
     facebook: `https://www.facebook.com/colabpmq`,
-    booking: `https://colabpmq.skedda.com/booking`,
+    booking: `https://colabpmq.officernd.com/signup`,
     stepOne: `Click on the green plus (+) button`,
     stepTwo: `Click on the book button and enter your email address`,
     stepThree: `Fill in the booking form`,
