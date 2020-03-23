@@ -37,7 +37,7 @@ const Layout = ({ home, children }) => {
                   </button>
                 </div>
               </div>
-              <Dialog isOpen={true}><p className="text-sm lg:text-5xl lg:text-center">Due to the rapid spread of the novel coronavirus COVID-19, CoLab is currently closed until further notice. Thank you for your interest, and we look forward to being able to serve you again soon.</p></Dialog>
+              <Dialog isOpen={true}><p className="text-sm lg:text-5xl lg:text-center">Due to social distancing recommendations CoLab will be closed for now. We will advise when our doors reopen. Thank you for your continued support. We can't wait to share the CoLab space with you again soon.</p></Dialog>
               {children}
               <Footer />
             </main>
