@@ -1,20 +1,24 @@
-const tw = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme');
+const tailwindFilters = require('tailwindcss-filters');
 
 module.exports = {
   theme: {
+    backdropFilter: {
+      blur: `blur(${defaultTheme.spacing[2]})`,
+    },
     extend: {
       colors: {
         'transparent-black': 'hsla(0, 0%, 0%, 0.2)',
         fuschia: '#CA0088',
         gray: {
-          ...tw.colors.gray,
+          ...defaultTheme.colors.gray,
           '600': '#707070',
           '800': '#40383D',
         },
       },
       fontFamily: {
-        display: ['True North', ...tw.fontFamily.sans],
-        sans: ['Poppins', ...tw.fontFamily.sans],
+        display: ['True North', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
       minHeight: {
         '48rem': '48rem',
@@ -35,5 +39,8 @@ module.exports = {
     borderWidth: ['responsive', 'first'],
     margin: ['responsive', 'first'],
   },
-  plugins: [],
+  plugins: [
+    // Add Tailwind Filter plugin
+    tailwindFilters,
+  ],
 };
