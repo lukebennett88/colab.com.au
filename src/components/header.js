@@ -45,7 +45,7 @@ const Header = ({ home, isOpen, setOpen }) => {
             alt="CoLab logo."
             className="hidden w-full px-8 lg:block"
           />
-          <ul className="w-full mt-3 leading-tight uppercase lg:mt-12">
+          <ul className="w-full mt-3 leading-tight uppercase lg:mt-12 pointer-events-none">
             {navItems.map(navItem => (
               <li key={navItem.id} className="flex text-2xl font-display">
                 {home ? (

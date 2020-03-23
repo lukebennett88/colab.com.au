@@ -5,6 +5,9 @@ import PropTypes from 'prop-types';
 import Header from './header';
 import Footer from './footer';
 
+import { Dialog, DialogOverlay, DialogContent } from "@reach/dialog";
+import "@reach/dialog/styles.css";
+
 const Layout = ({ home, children }) => {
   const [isOpen, setOpen] = React.useState(false);
 
@@ -34,6 +37,7 @@ const Layout = ({ home, children }) => {
                   </button>
                 </div>
               </div>
+              <Dialog isOpen={true}><p className="text-sm lg:text-5xl lg:text-center">Due to the rapid spread of the novel coronavirus COVID-19, CoLab is currently closed until further notice. Thank you for your interest, and we look forward to being able to serve you again soon.</p></Dialog>
               {children}
               <Footer />
             </main>

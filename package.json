@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Luke Bennett <hello@lukebennett.com.au>",
   "dependencies": {
+    "@reach/dialog": "^0.9.1",
     "autoprefixer": "^9.7.3",
     "gatsby": "^2.19.28",
     "gatsby-image": "^2.2.42",
