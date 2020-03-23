@@ -28,7 +28,7 @@ const Hero = () => {
           <br className="hidden md:inline" /> and Work&nbsp;Space
         </h1>
       </div>
-      <div className="fixed bottom-0 right-0 z-20 mb-56 mr-5 md:mr-12 md:pr-3 pointer-events-none">
+      <div className="fixed bottom-0 right-0 z-20 mb-56 mr-5 md:mr-12 md:pr-3">
         <a
           target="_blank"
           rel="noopener noreferrer"
